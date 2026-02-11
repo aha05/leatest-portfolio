@@ -1,5 +1,4 @@
 import { Separator } from '@/components/ui/separator'
-import { Link } from "react-router-dom"
 
 export function Footer() {
   const currentYear = new Date().getFullYear()

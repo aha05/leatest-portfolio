@@ -1,5 +1,4 @@
-import { ArrowRight, Github, Linkedin, Mail, Twitter } from 'lucide-react'
-import { Link } from "react-router-dom"
+import { ArrowRight, Github, Linkedin } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 export function Hero() {
