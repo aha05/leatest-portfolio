@@ -58,7 +58,6 @@ export function Projects() {
         <div className="space-y-12">
           {/* Header */}
           <div className="text-center space-y-4">
-            <h2 className="text-sm font-mono text-accent uppercase tracking-wider">Featured Work</h2>
             <h3 className="text-3xl sm:text-4xl font-bold text-white">Selected Projects</h3>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               A collection of projects that showcase my expertise in full-stack development and creative problem-solving
