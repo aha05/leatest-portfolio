@@ -9,69 +9,47 @@ export function Projects() {
     {
       title: 'E-Commerce Platform',
       description:
-        'A full-featured e-commerce platform with real-time inventory management, payment processing, and advanced analytics dashboard.',
+        'Developed a fully functional e-commerce website using the MERN stack. The platform includes user authentication, product catalog management, shopping cart functionality, order processing, and an admin panel for inventory and order management. It supports both guest and registered users, allowing seamless shopping experiences with session-based cart storage.',
       image: '🛒',
-      tags: ['Next.js', 'PostgreSQL', 'Stripe', 'TypeScript', 'Tailwind CSS'],
+      tags: ['React', 'Express', 'Node.js', 'MongoDB', 'Tailwind CSS'],
       links: {
         live: '#',
-        github: '#',
+        github: 'https://github.com/aha05/e-commerce',
       },
     },
     {
-      title: 'Task Management App',
+      title: 'Inventory Management System',
       description:
-        'Collaborative task management tool with real-time updates, team collaboration features, and intelligent task prioritization.',
-      image: '✓',
-      tags: ['React', 'Firebase', 'Redux', 'Material-UI'],
+        'I developed a modern Inventory Management System for small and medium businesses to track stock, sales, and purchases with ease. The system is built for usability, security, and scalability, giving business owners real-time insights and full control over their inventory.',
+      image: '📋',
+      tags: ['Django', 'Vue.js', 'Tailwind CSS', 'PostgreSQL'],
       links: {
         live: '#',
-        github: '#',
+        github: 'https://github.com/aha05/Inventory',
       },
     },
     {
-      title: 'AI Chat Interface',
+      title: 'QuizHub',
       description:
-        'Modern chat application powered by AI with natural language processing, context awareness, and seamless conversation flow.',
-      image: '💬',
-      tags: ['Next.js', 'OpenAI', 'WebSocket', 'TypeScript'],
+        "QuizHub is a scalable, full-stack quiz management platform built with a React + TypeScript frontend and Spring Boot backend. It's designed with clean architecture, easy to maintain, extend, and integrate into enterprise or educational env't. The platform enables users to take quizzes, track their quiz history, view rankings on a leaderboard, and manage profiles.",
+      image: '📝',
+      tags: ['Spring Boot', 'React', 'TypeScript', 'Java', 'MySQL'],
       links: {
         live: '#',
-        github: '#',
+        github: 'https://github.com/aha05/QuizHub',
       },
     },
     {
-      title: 'Analytics Dashboard',
+      title: 'Laravel Developer',
       description:
-        'Real-time analytics dashboard providing comprehensive insights with interactive visualizations and custom reporting capabilities.',
-      image: '📊',
-      tags: ['React', 'D3.js', 'Node.js', 'MongoDB'],
+        'Developed a Human Resource Management System (HRMS) for Dilla University using the Laravel framework. The system streamlines HR processes, including employee information management, leave tracking, reporting, announcements, job postings, online registration, and user activity tracking. Designed with secure authentication and authorization, ensuring efficient management and user accessibility.',
+      image: '🧑‍💼',
+      tags: ['Laravel', 'MySQL', 'RESTful API'],
       links: {
         live: '#',
-        github: '#',
+        github: 'https://github.com/aha05/duhrms',
       },
-    },
-    {
-      title: 'SaaS Subscription Platform',
-      description:
-        'Complete SaaS solution with subscription management, billing automation, user authentication, and role-based access control.',
-      image: '🚀',
-      tags: ['Next.js', 'PostgreSQL', 'Supabase', 'Vercel'],
-      links: {
-        live: '#',
-        github: '#',
-      },
-    },
-    {
-      title: 'Design System',
-      description:
-        'Comprehensive design system and component library with documentation, accessibility features, and extensive component variations.',
-      image: '🎨',
-      tags: ['React', 'Storybook', 'TypeScript', 'Tailwind CSS'],
-      links: {
-        live: '#',
-        github: '#',
-      },
-    },
+    }
   ]
 
   return (
@@ -115,11 +93,11 @@ export function Projects() {
 
                   {/* Links */}
                   <div className="flex gap-3 pt-4">
-                    <Link to={project.links.live}>
+                    {/* <Link to={project.links.live}>
                       <Button size="sm" variant="outline" className="w-full gap-2 border-border hover:bg-[hsl(var(--secondary))] bg-transparent">
                         <ExternalLink size={16} /> View Live
                       </Button>
-                    </Link>
+                    </Link> */}
                     <Link to={project.links.github}>
                       <Button size="sm" variant="outline" className="w-full gap-2 border-border hover:bg-[hsl(var(--secondary)/0.5)] bg-transparent">
                         <Github size={16} /> Code

@@ -1,5 +1,3 @@
-'use client'
-
 import { Link } from "react-router-dom"
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
@@ -20,19 +18,19 @@ export function Navigation() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="#" className="text-xl font-bold text-white">
-            Portfolio
+            Gashaw Fentaye
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex gap-8">
             {links.map((link) => (
-              <Link
+              <a
                 key={link.to}
-                to={link.to}
+                href={link.to}
                 className="text-sm font-medium text-muted-foreground hover:text-[hsl(var(--foreground))] transition-colors duration-200"
               >
                 {link.label}
-              </Link>
+              </a>
             ))}
           </div>
 

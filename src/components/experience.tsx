@@ -4,32 +4,14 @@ import { Badge } from '@/components/ui/badge'
 export function Experience() {
   const experiences = [
     {
-      role: 'Senior Full Stack Developer',
-      company: 'Tech Innovations Inc.',
-      period: '2023 - Present',
+      role: 'Programmer',
+      company: 'Ministry of Innovation',
+      period: 'Sep 2023 - Jan 2024',
       description:
-        'Leading a team of developers to build scalable web applications. Architected microservices infrastructure and mentored junior developers.',
-      achievements: ['Led migration to modern stack', 'Improved performance by 40%', 'Managed team of 5+ developers'],
-      tags: ['Next.js', 'Node.js', 'PostgreSQL', 'AWS'],
-    },
-    {
-      role: 'Full Stack Developer',
-      company: 'Digital Solutions Co.',
-      period: '2021 - 2023',
-      description:
-        'Developed and maintained multiple client-facing web applications. Implemented real-time features and optimized database queries.',
-      achievements: ['Built 15+ production applications', 'Reduced load time by 50%', 'Established CI/CD pipeline'],
-      tags: ['React', 'Express', 'MongoDB', 'Docker'],
-    },
-    {
-      role: 'Frontend Developer',
-      company: 'Creative Studio',
-      period: '2020 - 2021',
-      description:
-        'Created responsive user interfaces and interactive experiences. Collaborated with designers to bring concepts to life.',
-      achievements: ['Launched 8+ projects', 'Improved SEO score to 98', 'Implemented accessibility standards'],
-      tags: ['React', 'Tailwind CSS', 'JavaScript', 'Figma'],
-    },
+        'Worked on developing and maintaining responsive web applications using modern web technologies',
+      achievements: ['Designed and developed full-fledged web applications', 'Collaborated with product managers and designers in Agile/Scrum environments.', 'Built user-friendly interfaces based on design and business requirements'],
+      tags: ['React', 'Django', 'MySQL'],
+    }
   ]
 
   return (
@@ -38,11 +20,7 @@ export function Experience() {
         <div className="space-y-12">
           {/* Header */}
           <div className="text-center space-y-4">
-            <h2 className="text-sm font-mono text-accent uppercase tracking-wider">Professional Journey</h2>
             <h3 className="text-3xl sm:text-4xl font-bold text-white">Work Experience</h3>
-            <p className="text-muted-foreground max-w-2xl mx-auto">
-              A timeline of my professional roles and the impact I've made in each position
-            </p>
           </div>
 
           {/* Timeline */}

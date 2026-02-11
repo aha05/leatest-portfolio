@@ -5,19 +5,19 @@ export function Skills() {
   const skillCategories = [
     {
       category: 'Frontend',
-      skills: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Vue.js', 'Framer Motion'],
+      skills: ['React', 'Vue.js', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Bootstrap'],
     },
     {
       category: 'Backend',
-      skills: ['Node.js', 'Express', 'PostgreSQL', 'MongoDB', 'Firebase', 'GraphQL'],
+      skills: ['Node.js', 'Express', 'Django', 'Spring Boot', 'Laravel', 'MySQL', 'PostgreSQL', 'MongoDB'],
     },
     {
       category: 'Tools & Platforms',
-      skills: ['Git', 'Docker', 'AWS', 'Vercel', 'Figma', 'GitHub'],
+      skills: ['Git', 'GitHub'],
     },
     {
       category: 'Other',
-      skills: ['REST APIs', 'Authentication', 'Performance Optimization', 'UI/UX Design', 'Testing', 'DevOps'],
+      skills: ['REST APIs', 'Authentication', 'Performance Optimization'],
     },
   ]
 
@@ -27,7 +27,6 @@ export function Skills() {
         <div className="space-y-12">
           {/* Header */}
           <div className="text-center space-y-4">
-            <h2 className="text-sm font-mono text-accent uppercase tracking-wider">Technical Expertise</h2>
             <h3 className="text-3xl sm:text-4xl font-bold text-white">Skills & Technologies</h3>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               A comprehensive toolkit of technologies and methodologies I've mastered to deliver high-quality solutions
@@ -62,9 +61,9 @@ export function Skills() {
             <h4 className="text-lg font-semibold text-white mb-6">Proficiency Levels</h4>
             <div className="space-y-6">
               {[
-                { label: 'Frontend Development', value: 95 },
-                { label: 'Full Stack Development', value: 90 },
-                { label: 'Backend Architecture', value: 85 },
+                { label: 'Frontend Development', value: 90 },
+                { label: 'Full Stack Development', value: 95 },
+                { label: 'Backend Architecture', value: 95 },
                 { label: 'DevOps & Deployment', value: 80 },
               ].map((skill) => (
                 <div key={skill.label} className="space-y-2">

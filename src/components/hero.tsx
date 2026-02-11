@@ -11,10 +11,9 @@ export function Hero() {
           <div className="space-y-8">
             <div className="space-y-4">
               <div className="inline-block">
-                <span className="text-accent font-mono text-sm">Welcome to my portfolio</span>
               </div>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white text-balance">
-                Full Stack Developer & Creative Technologist
+                Full Stack Developer
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed text-pretty max-w-lg">
                 I craft elegant digital experiences by blending thoughtful design with robust engineering. Passionate about building scalable applications and exploring the intersection of code and creativity.
@@ -23,44 +22,32 @@ export function Hero() {
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4">
-              <Link href="#projects">
+              <a href="#projects">
                 <Button className="gap-2 bg-accent hover:bg-accent/90 text-accent-foreground">
                   View My Work <ArrowRight size={18} />
                 </Button>
-              </Link>
-              <Link href="#contact">
+              </a>
+              <a href="#contact">
                 <Button variant="outline" className="border-border hover:bg-secondary/50 bg-transparent">
                   Get in Touch
                 </Button>
-              </Link>
+              </a>
             </div>
 
             {/* Social Links */}
             <div className="flex gap-4 pt-4">
-              <Link
-                href="#"
+              <a
+                href="https://github.com/aha05"
                 className="p-3 rounded-lg bg-secondary/50 hover:bg-secondary text-muted-foreground hover:text-[hsl(var(--accent))] transition-all duration-200"
               >
                 <Github size={20} />
-              </Link>
-              <Link
-                href="#"
+              </a>
+              <a
+                href="https://www.linkedin.com/in/gashaw-fentaye-1b38b82b4/?originalSubdomain=et"
                 className="p-3 rounded-lg bg-secondary/50 hover:bg-secondary text-muted-foreground hover:text-[hsl(var(--accent))] transition-all duration-200"
               >
                 <Linkedin size={20} />
-              </Link>
-              <Link
-                href="#"
-                className="p-3 rounded-lg bg-secondary/50 hover:bg-secondary text-muted-foreground hover:text-[hsl(var(--accent))] transition-all duration-200"
-              >
-                <Twitter size={20} />
-              </Link>
-              <Link
-                href="#contact"
-                className="p-3 rounded-lg bg-secondary/50 hover:bg-secondary text-muted-foreground hover:text-[hsl(var(--accent))] transition-all duration-200"
-              >
-                <Mail size={20} />
-              </Link>
+              </a>
             </div>
           </div>
 
@@ -85,7 +72,7 @@ export function Hero() {
                       <span className="text-muted-foreground">passion</span>: <span className="text-accent">'innovation'</span>,
                     </div>
                     <div>
-                      <span className="text-muted-foreground">years</span>: <span className="text-accent">5+</span>,
+                      <span className="text-muted-foreground">years</span>: <span className="text-accent">3+</span>,
                     </div>
                     <div>
                       <span className="text-muted-foreground">ready</span>: <span className="text-accent">true</span>
