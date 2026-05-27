@@ -25,8 +25,7 @@ export function About() {
 
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-               I am a Full Stack Developer with over 3+ years of hands-on experience in designing, developing, and maintaining web applications. I specialize in backend development with frameworks like Django, Node.js, Express.js, Spring Boot and Laravel, while also building modern, responsive frontends using JavaScript frameworks such as React, Vue, and TypeScript. My expertise lies in creating well-structured, scalable backend systems and seamlessly integrating them with user-friendly, interactive interfaces. I am passionate about writing clean, maintainable code, optimizing application performance, and delivering robust solutions that meet business and user requirements. I enjoy collaborating with cross-functional teams, learning new technologies, and continuously improving development workflows to create high-quality digital experiences.
-              </p>
+               I am a Full Stack Developer with over 3+ years of hands-on experience in designing, developing, and maintaining web and mobile applications. I specialize in backend development using frameworks like Django, Node.js, Express.js, Spring Boot, and Laravel, while also building modern, responsive frontends with React, Vue.js, and TypeScript. In addition, I develop cross-platform mobile applications using Flutter and Dart with scalable and maintainable architectures. My expertise lies in creating well-structured backend systems, seamless API integrations, and user-friendly interfaces across web and mobile platforms. I am passionate about writing clean, maintainable code, optimizing application performance, and delivering robust solutions that meet both business and user requirements. I enjoy collaborating with cross-functional teams, learning new technologies, and continuously improving development workflows to create high-quality digital experiences.              </p>
             </div>
 
             {/* Stats */}
@@ -36,7 +35,7 @@ export function About() {
                 <p className="text-sm text-muted-foreground">Years Experience</p>
               </div>
               <div className="space-y-2">
-                <div className="text-2xl font-bold text-accent">12+</div>
+                <div className="text-2xl font-bold text-accent">16+</div>
                 <p className="text-sm text-muted-foreground">Projects Completed</p>
               </div>
             </div>

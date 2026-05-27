@@ -28,6 +28,24 @@ export function Projects() {
         github: 'https://github.com/aha05/Inventory',
       },
     },
+   {
+  title: 'QuizHub – Flutter Quiz App',
+  description:
+    'Developed a modern Quiz & Trivia mobile application using Flutter with Clean Architecture principles. The app features categorized quizzes, animated progress tracking, score calculation, responsive UI design, reusable components, and scalable project structure. Built with focus on performance, maintainability, and smooth user experience across Android devices.',
+  image: '🧠',
+  tags: [
+    'Flutter',
+    'Dart',
+    'Clean Architecture',
+    'Bloc',
+    'REST API Integration',
+    'Mobile App Development',
+  ],
+  links: {
+    live: '#',
+    github: 'https://github.com/aha05/quizhub-apk',
+  },
+},
     {
       title: 'QuizHub',
       description:

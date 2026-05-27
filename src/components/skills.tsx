@@ -12,6 +12,18 @@ export function Skills() {
       skills: ['Node.js', 'Express', 'Django', 'Spring Boot', 'Laravel', 'MySQL', 'PostgreSQL', 'MongoDB'],
     },
     {
+    category: 'Mobile Development',
+    skills: [
+      'Flutter',
+      'Dart',
+      'Android',
+      'Firebase',
+      'API Integration',
+      'Responsive UI',
+      'Clean Architecture',
+    ],
+  },
+    {
       category: 'Tools & Platforms',
       skills: ['Git', 'GitHub'],
     },
