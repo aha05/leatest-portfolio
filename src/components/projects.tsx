@@ -9,7 +9,7 @@ export function Projects() {
     {
       title: "POS Management System – Spring Boot Microservices",
       description:
-        "Designed and developed an enterprise-grade POS Management System using Spring Boot Microservices and React with TypeScript and Tailwind CSS. The system supports merchant and terminal management, merchant onboarding, branch management, transaction monitoring, and settlement operations. Built a scalable microservices architecture using Spring Cloud Config Server for centralized configuration, Spring Cloud Gateway for API routing, and Apache Kafka for asynchronous event-driven communication between services. Containerized services using Docker.",
+        "Designed and developed an enterprise-grade POS Management System using Spring Boot Microservices and React + TypeScript and Tailwind CSS. The system supports merchant and terminal management, merchant onboarding, branch management, transaction monitoring, and settlement operations. Built a scalable microservices architecture using Spring Cloud Config Server for centralized configuration, Spring Cloud Gateway for API routing, and Apache Kafka for asynchronous event-driven communication between services. Containerized services using Docker.",
       image: "💳",
       tags: [
         "Java",
