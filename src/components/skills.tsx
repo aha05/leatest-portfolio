@@ -9,7 +9,11 @@ export function Skills() {
     },
     {
       category: 'Backend',
+<<<<<<< HEAD
       skills: ['Spring Boot', 'Microservices Architecture', 'Spring Cloud', 'Node.js', 'Express', 'Django',  'Laravel', 'MySQL', 'PostgreSQL', 'MongoDB'],
+=======
+      skills: ['Node.js', 'Express', 'Django', 'Spring Boot', 'Laravel', 'MySQL', 'PostgreSQL', 'MongoDB'],
+>>>>>>> c32f9fe4d94e527118e7b01d5333bb1ac2a7b031
     },
     {
     category: 'Mobile Development',
@@ -25,7 +29,11 @@ export function Skills() {
   },
     {
       category: 'Tools & Platforms',
+<<<<<<< HEAD
       skills: ['Git', 'GitHub', 'Apache Kafka', 'RabbitMQ', 'Docker', 'Kubernetes'],
+=======
+      skills: ['Git', 'GitHub'],
+>>>>>>> c32f9fe4d94e527118e7b01d5333bb1ac2a7b031
     },
     {
       category: 'Other',
